@@ -1,4 +1,4 @@
-package internal
+package gopq
 
 import (
 	"fmt"

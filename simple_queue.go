@@ -2,8 +2,6 @@ package gopq
 
 import (
 	"fmt"
-
-	"github.com/mattdeak/gopq/internal"
 )
 
 const (
@@ -58,7 +56,7 @@ func NewSimpleQueue(filePath string) (*Queue, error) {
 	}
 
 	return &Queue{
-		db:           db,
+		DB:           db,
 		name:         tableName,
 		pollInterval: defaultPollInterval,
 		notifyChan:   internal.MakeNotifyChan(),

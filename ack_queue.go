@@ -2,8 +2,6 @@ package gopq
 
 import (
 	"fmt"
-
-	"github.com/mattdeak/gopq/internal"
 )
 
 const (
